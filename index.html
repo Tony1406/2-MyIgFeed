@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex justify-content-start">
+            <a class="navbar-brand" href="#"> <i class="fa fa-instagram"></i> Instagram</a>
+
+        </div>
+
+
+        <!-- Button trigger modal -->
+        <div class=" container-fluid d-flex justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav bg-secondary rounded-1 m-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-gear text-light"></i>
+                    </a>
+                    <ul class="dropdown-menu text-light">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <section class="border-top">
+                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                        </section>
+                    </ul>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-success rounded-1 " data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Create new post
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New post</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Caption:
+                            <textarea class="form-control my-2"
+                                placeholder="Add the caption of your post here"></textarea>
+                            <span class="border m-1 p-1 px-2 rounded bg-light" style="margin-top: 10px;">
+                                <i class="fa fa-camera "></i>
+                            </span>
+                            <span class="border m-1 py-1 px-3 rounded bg-light" style="margin-top: 10px" ;>
+                                <i class="fa fa-map-pin"></i>
+                            </span>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+                    class="fa-solid fa-circle"></i></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+                    class="fa fa-square"></i></button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">
+            <div class="text-center">
+                <div class="row my-3">
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422023439-64f1eaf518ace.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422023439-64f1eaf518ace.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1422023439-64f1eaf518ace.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid"
+                            src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.jpg"
+                            alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- <section> -->
+        <div class="tab-pane fade container m-4 mx-auto d-block py-2" id="profile-tab-pane" role="tabpanel"
+            aria-labelledby="profile-tab" tabindex="0">
+            <div class="container-fluid">
+                <!-- <div class="row mx-0 my-3"> -->
+                    <div class="card col px-0" style="width: 40rem;">
+                        <div class="card-body d-flex justify-content-between">
+                            <h1>My Cute Baby!</h1>
+                            <span>08/26</span>
+                        </div>
+                        <img src="https://static.guiainfantil.com/media/40268/c/sudamina-granitos-en-los-bebes-por-el-calor-md.jpg"
+                            class="card-img-top mx-0" alt="...">
+                        <div class="card-body">
+                            <strong>204 Likes</strong>
+                            <p>this is an example of a very good photo that you can post on instagram</p>
+                        </div>
+                    </div>
+                <!-- </div> -->
+
+                <div class="row mx-0 my-5">
+                    <div class="card col px-0" style="width: 18rem;">
+                        <div class="card-body d-flex justify-content-between">
+                            <h1>My Cute Baby!</h1>
+                            <span>08/26</span>
+                        </div>
+                        <img src="https://static.guiainfantil.com/media/40268/c/sudamina-granitos-en-los-bebes-por-el-calor-md.jpg"
+                            class="card-img-top mx-0" alt="...">
+                        <div class="card-body">
+                            <strong>204 Likes</strong>
+                            <p>this is an example of a very good photo that you can post on instagram</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-0 my-5 ">
+                    <div class="card col px-0" style="width: 18rem;">
+                        <div class="card-body d-flex justify-content-between">
+                            <h1>My Cute Baby!</h1>
+                            <span>08/26</span>
+                        </div>
+                        <img src="https://static.guiainfantil.com/media/40268/c/sudamina-granitos-en-los-bebes-por-el-calor-md.jpg"
+                            class="card-img-top mx-0" alt="...">
+                        <div class="card-body">
+                            <strong>204 Likes</strong>
+                            <p>this is an example of a very good photo that you can post on instagram</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
