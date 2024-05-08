@@ -1,12 +1,12 @@
 # Proyecto de Feed de Instagram
 
-Este es un proyecto de ejemplo que utiliza HTML y CSS. Puedes ver la versión desplegada en Vercel a través del siguiente enlace:
+Este es un proyecto de ejemplo que utiliza HTML, Bootstrap y CSS. Puedes ver la versión desplegada en Vercel a través del siguiente enlace:
 
 https://proyecto-my-ig-feed.vercel.app/
 
 ## Descripción
 
-Este proyecto es una demostración de cómo se pueden combinar HTML y CSS para simular el feed de instagram.
+Este proyecto es una demostración de cómo se pueden combinar HTML, Bootstrap y CSS para simular el feed de instagram.
 
 ## Uso
 
